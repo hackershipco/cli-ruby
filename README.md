@@ -52,6 +52,7 @@ Scope is the context on which a expression is evaluated, it determines which val
 Programming languages attempt to disambiguate meanings, they're also less verbose, that's why expressions are used instead of using a language like English.
 If I was to say two plus two minus eleven it would be harder to read and interpret as opposed to 2 + 2  - 1, 2 + (2 - 1) or (2 + 2) - 1, that have different meanings.
 
+
 Data Types
 ===
 
