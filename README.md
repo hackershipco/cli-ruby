@@ -1,3 +1,16 @@
+* follow-up on github
+* basic ruby
+* expressions
+* data types
+* exercise
+* what's a framework
+* homework review
+
+Github Forking
+---
+
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+
 Basic Ruby
 ===
 
@@ -52,7 +65,9 @@ The following  types are available in Ruby:
 * Numbers (Integers and Floats)
 
 
-Running Ruby on the command line
+
+
+Exercise 1, ruby calculator
 ===
 
 We will use the interactive ruby console and create ruby files and execute them in the command line.
@@ -60,6 +75,7 @@ We will use the interactive ruby console and create ruby files and execute them 
 We  will create a calculator program that takes a symbol and two numbers and applies the operation to them.
 
 so `./calc.rb + 2 2` will output 4.
+
 
 What is Rails? What is a framework
 ===
@@ -74,4 +90,3 @@ It uses the convention over configuration method, meaning that any expected beha
 A cool way to learn more about Rails is [Rails for Zombies](http://railsforzombies.org/).
 
 Rails was created by [David Heinemeier Hansson](https://twitter.com/dhh) around 2005, is on its 4th version, it comes preinstalled in MacBooks since 2007.
-
