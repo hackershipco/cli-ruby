@@ -1,33 +1,37 @@
-Summary
+Class #3 Agenda
 ===
 
-* follow-up on github
-* basic ruby
-* expressions
-* data types
-* exercise
-* what's a framework
-* homework review
+* Github followup: forking
+* Ruby overview
+* Ruby expressions
+* Ruby data types
+* Ruby exercise: build a calculator
+* Rails overview
+* Homework review (from last class)
+* Assignments
 
 Github Forking
 ---
 
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-Basic Ruby
+Ruby overview
 ===
 
 On this class we will see a basic introduction to Ruby and programming; most of the concepts apply to every programming language but
 we will use the specific syntax of Ruby.
 
-Acording to wikipedia Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
-It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
-
 According to its authors, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp.
 It supports multiple programming paradigms, including functional, object-oriented, and imperative.
 It also has a dynamic type system and automatic memory management.
 
-Expressions
+ * Dynamic
+ * Reflective
+ * Object-oriented
+ * General-purpose
+ * Functional programming
+
+Ruby expressions
 ===
 
 A expression is a combination or a set of values, functions, declarations, commands that adhere to the syntax and can be evaluated
@@ -50,10 +54,10 @@ The expressions are evaluated and loaded into memory into its own scope, variabl
 Scope is the context on which a expression is evaluated, it determines which values, variables and elements are available to use.
 
 Programming languages attempt to disambiguate meanings, they're also less verbose, that's why expressions are used instead of using a language like English.
-If I was to say two plus two minus eleven it would be harder to read and interpret as opposed to 2 + 2  - 1, 2 + (2 - 1) or (2 + 2) - 1, that have different meanings.
+If I was to say two plus two minus eleven it would be harder to read and interpret as opposed to 2 + 2 x 4 or (2 + 2) x 4, which have different meanings
 
 
-Data Types
+Ruby data types
 ===
 
 Data types or types are the type of information that a value has, it usually determines what kind of actions can you perform with a certain value.
@@ -71,7 +75,7 @@ The following  types are available in Ruby:
 
 
 
-Exercise 1, ruby calculator
+Ruby exercise: build a calculator
 ===
 
 We will use the interactive ruby console and create ruby files and execute them in the command line.
@@ -81,7 +85,7 @@ We  will create a calculator program that takes a symbol and two numbers and app
 so `./calc.rb + 2 2` will output 4.
 
 
-What is Rails? What is a framework
+Rails overview
 ===
 
 A framework, on the other hand, is a collection of code that uses an inversion-of-control mechanism to help you structure your code. Frameworks are similar to libraries in that they provide building blocks you can use to build a bigger system. They often come with a pre-imposed structure and philosophy of how to approach a domain of problems.
@@ -94,3 +98,10 @@ It uses the convention over configuration method, meaning that any expected beha
 A cool way to learn more about Rails is [Rails for Zombies](http://railsforzombies.org/).
 
 Rails was created by [David Heinemeier Hansson](https://twitter.com/dhh) around 2005, is on its 4th version, it comes preinstalled in MacBooks since 2007.
+
+
+Homework review (from last class)
+===
+
+Assignments
+===
