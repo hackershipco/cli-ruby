@@ -70,6 +70,7 @@ The following  types are available in Ruby:
 * Hashes (Dictionaries)
 * Arrays
 * String
+* Symbols
 * Numbers (Integers and Floats)
 
 
@@ -105,3 +106,8 @@ Homework review (from last class)
 
 Assignments
 ===
+
+More Reading
+===
+
+http://x.genius.com/Edsger-w-djikstra-on-the-foolishness-of-natural-language-programming-annotated#note-4056308

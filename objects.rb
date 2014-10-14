@@ -2,14 +2,26 @@
 
 class Marker
   attr_accessor :brand, :color
+
+  def initialize
+    @brand = "expo"
+    @color = "black"
+  end
+
   def write
     puts "I'm a " + @color + " marker  from " + @brand
   end
+
 end
 
-Marker.write
+# Marker.write
+# puts Marker.brand
 
-marker = Marker.new
-marker.color = "Blue"
-marker.brand = "Expo"
-marker.write
+# sharpie = Marker.new
+# sharpie.write
+# sharpie[:brand] = "Sharpie"
+# sharpie.color = "Blue"
+# sharpie.brand = "Sharpie"
+# sharpie.price = 1000
+# Marker.write
+# sharpie.write
