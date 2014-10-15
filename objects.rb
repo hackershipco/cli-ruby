@@ -1,10 +1,8 @@
 #!/usr/bin/env ruby
-
 class Marker
-  attr_accessor :brand, :color
-
-  def initialize
-    @brand = "expo"
+  attr_accessor :brand, :color, :price
+  def initialize(brand)
+    @brand = brand
     @color = "black"
   end
 
@@ -17,11 +15,7 @@ end
 # Marker.write
 # puts Marker.brand
 
-# sharpie = Marker.new
-# sharpie.write
-# sharpie[:brand] = "Sharpie"
-# sharpie.color = "Blue"
-# sharpie.brand = "Sharpie"
-# sharpie.price = 1000
-# Marker.write
-# sharpie.write
+sharpie = Marker.new("sharpie")
+crayola = Marker.new("crayola")
+sharpie.write
+crayola.write
